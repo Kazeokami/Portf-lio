@@ -29,24 +29,31 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="#divAbout">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre</a>
+              <a class="nav-link" href="#divProjects">Projetos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="#divContact">Contato</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <!-- ABOUT  -->
+<div id="divAbout" >
+        <!-- Jumbotron Header -->
+      <header class="jumbotron my-4">
+        <h1 class="display-3">Um pouco sobre mim</h1>
+        <p class="lead">Gamer levemente doido com programação, curioso para descobrir novos jeitos e  caminhos que o mundo digital traz , buscando sempre aprimorar o conhecimento  que possuo juntamente com o que ganharei ao longo do tempo.  </p>
+      </header>
+</div>
+
 
     <!-- Page Content -->
-    <div class="container">
+    <div id="divProjects" class="container">
 
       <!-- Page Heading -->
       <h1 class="my-4">Projetos
@@ -57,13 +64,18 @@
       <div class="row">
         <div class="col-md-7">
           <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="images/Kowloon700x300.jpeg" alt="kowloon1">
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Project One</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+          <h3>Omnium</h3>
+          <p>Projeto de jogo independente;<br>
+           Desenvolvido na UDK e  e UE4;<br>
+           Programação;<br>
+           Level Desing;<br>
+           História; 
+           </p>
+
         </div>
       </div>
       <!-- /.row -->
@@ -74,13 +86,13 @@
       <div class="row">
         <div class="col-md-7">
           <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="images/Casul_Site.jpeg" alt="Casul Site">
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Project Two</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+          <h3>Site da Casul</h3>
+          <p>Criação do site <a href="http://casuldev.com/">http://casuldev.com/</a></p>
+          
         </div>
       </div>
       <!-- /.row -->
@@ -91,36 +103,24 @@
       <div class="row">
         <div class="col-md-7">
           <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="images/Heroes_idle.jpeg" alt="Heroes idle">
           </a>
         </div>
         <div class="col-md-5">
-          <h3>Project Three</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+          <h3>Heroes Idle</h3>
+          <p>Fan made game; <br>
+             HTML;<br>
+             JS; <br>
+             CSS;<br>
+             <a href="http://casuldev.com/heroesidle/">http://casuldev.com/heroesidle/</a>
+          </p>
+          
         </div>
       </div>
       <!-- /.row -->
 
       <hr>
 
-      <!-- Project Four -->
-      <div class="row">
-
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Project Four</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
-          <a class="btn btn-primary" href="#">View Project</a>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
 
       <!-- Pagination -->
       <ul class="pagination justify-content-center">
@@ -132,12 +132,6 @@
         </li>
         <li class="page-item">
           <a class="page-link" href="#">1</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">2</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">3</a>
         </li>
         <li class="page-item">
           <a class="page-link" href="#" aria-label="Next">
@@ -152,8 +146,9 @@
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+      <div id="divContact" class="container">
+        <p class="m-0 text-center text-white">Email para contato: <a href="mailto:asa246@gmail.com">asa246@gmail.com  </a>    <br>
+                                              Tel: (31)98686-0666</p>
       </div>
       <!-- /.container -->
     </footer>
